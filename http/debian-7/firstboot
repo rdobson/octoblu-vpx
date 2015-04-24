@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir /media/sr1
+mount /dev/sr1 /media/sr1
+/media/sr1/Linux/install.sh -n
+
+echo "Finished"
+
